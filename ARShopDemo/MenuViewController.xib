@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4514" systemVersion="13A3017" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MenuViewController">
+            <connections>
+                <outlet property="_dismissButton" destination="f6v-Wt-5p0" id="ZxU-oK-UyO"/>
+                <outlet property="view" destination="dar-hr-zm9" id="Hhr-Wh-yn0"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="dar-hr-zm9">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8op-L6-vey" userLabel="Scan button">
+                    <rect key="frame" x="20" y="84" width="120" height="120"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="120" id="TEp-wI-o4Y"/>
+                        <constraint firstAttribute="width" constant="120" id="q2h-Ck-6TV"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" image="Lente_ingrandimento">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="scanButtonPressed:" destination="-1" eventType="touchUpInside" id="tSY-BE-d6T"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w9j-KV-4fH" userLabel="Coupon button">
+                    <rect key="frame" x="167" y="84" width="120" height="120"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="120" id="VDP-dc-1bP"/>
+                        <constraint firstAttribute="height" constant="120" id="Vtc-Rz-s3S"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" image="Lente_ingrandimento">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FzD-Dh-uhO" userLabel="Catalog button">
+                    <rect key="frame" x="20" y="212" width="120" height="120"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="120" id="3RZ-Hr-ZZ9"/>
+                        <constraint firstAttribute="width" constant="120" id="Eo3-v2-iJC"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" image="Lente_ingrandimento">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eag-gR-12M" userLabel="Promotion button">
+                    <rect key="frame" x="155" y="212" width="120" height="120"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="120" id="f1e-pO-BZf"/>
+                        <constraint firstAttribute="width" constant="120" id="gU9-t1-HoF"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" image="Lente_ingrandimento">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sR3-MM-C7T" userLabel="Profile button">
+                    <rect key="frame" x="20" y="346" width="120" height="120"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="120" id="2SH-fe-hH9"/>
+                        <constraint firstAttribute="width" constant="120" id="JAl-Ct-3UZ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" image="Lente_ingrandimento">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IeM-w4-jhj" userLabel="Cart button">
+                    <rect key="frame" x="177" y="346" width="120" height="120"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="120" id="8gi-xX-Kcp"/>
+                        <constraint firstAttribute="height" constant="120" id="odR-d2-isy"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" image="Lente_ingrandimento">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f6v-Wt-5p0">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="Acquisto completato con successo">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="dismissButtonPressed:" destination="-1" eventType="touchUpInside" id="9Uq-dB-Qq8"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="0.912679307" blue="0.1086327181" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="eag-gR-12M" firstAttribute="leading" secondItem="FzD-Dh-uhO" secondAttribute="trailing" constant="15" id="B6k-K6-QN7"/>
+                <constraint firstItem="FzD-Dh-uhO" firstAttribute="top" secondItem="8op-L6-vey" secondAttribute="bottom" constant="8" id="DWD-ne-RnM"/>
+                <constraint firstItem="IeM-w4-jhj" firstAttribute="leading" secondItem="sR3-MM-C7T" secondAttribute="trailing" constant="37" id="HAm-0T-J0a"/>
+                <constraint firstItem="FzD-Dh-uhO" firstAttribute="leading" secondItem="sR3-MM-C7T" secondAttribute="leading" id="MB6-UQ-F2N"/>
+                <constraint firstAttribute="trailing" secondItem="f6v-Wt-5p0" secondAttribute="trailing" id="MX0-Ho-Dyw"/>
+                <constraint firstItem="8op-L6-vey" firstAttribute="leading" secondItem="dar-hr-zm9" secondAttribute="leading" constant="20" id="P76-0D-qvQ"/>
+                <constraint firstItem="sR3-MM-C7T" firstAttribute="top" secondItem="FzD-Dh-uhO" secondAttribute="bottom" constant="14" id="Wj5-Fd-wbV"/>
+                <constraint firstItem="eag-gR-12M" firstAttribute="top" secondItem="FzD-Dh-uhO" secondAttribute="top" id="X2W-nJ-rBs"/>
+                <constraint firstItem="f6v-Wt-5p0" firstAttribute="leading" secondItem="dar-hr-zm9" secondAttribute="leading" id="ape-u0-eoy"/>
+                <constraint firstItem="w9j-KV-4fH" firstAttribute="leading" secondItem="8op-L6-vey" secondAttribute="trailing" constant="27" id="bdl-Dm-YMP"/>
+                <constraint firstItem="8op-L6-vey" firstAttribute="leading" secondItem="FzD-Dh-uhO" secondAttribute="leading" id="cvI-3W-jb1"/>
+                <constraint firstAttribute="bottom" secondItem="f6v-Wt-5p0" secondAttribute="bottom" id="eVp-GT-rVu"/>
+                <constraint firstItem="IeM-w4-jhj" firstAttribute="top" secondItem="sR3-MM-C7T" secondAttribute="top" id="qnk-uL-UTw"/>
+                <constraint firstItem="8op-L6-vey" firstAttribute="top" secondItem="dar-hr-zm9" secondAttribute="top" constant="84" id="xgb-ij-iq1"/>
+                <constraint firstItem="f6v-Wt-5p0" firstAttribute="top" secondItem="dar-hr-zm9" secondAttribute="top" id="yQT-nZ-9IM"/>
+                <constraint firstItem="8op-L6-vey" firstAttribute="top" secondItem="w9j-KV-4fH" secondAttribute="top" id="z6B-q4-PiF"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="Lente_ingrandimento" width="120" height="120"/>
+    </resources>
+</document>
